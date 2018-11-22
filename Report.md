@@ -4,7 +4,7 @@ This details the methodology used in evaluating and improving agent learning per
 
 This agent implements the Deep Q Network (DQN) algorithm. Reinforcement learning is unstable or divergent when a nonlinear function approximator such as a neural network is used to represent Q. This instability comes from the correlations present in the sequence of observations, the fact that small updates to Q may significantly change the policy and the data distribution, and the correlations between Q and the target values.
 
-The technique used experience replay, a biologically inspired mechanism that uses a random sample of prior actions instead of the most recent action to proceed. This removes correlations in the observation sequence and smooths changes in the data distribution. Iterative update adjusts Q towards target values that are only periodically updated, further reducing correlations with the target([Source])(https://en.wikipedia.org/wiki/Q-learning#Deep_Q-learning). More details are available in the original DQN [paper](https://deepmind.com/research/dqn/).
+The technique used experience replay, a biologically inspired mechanism that uses a random sample of prior actions instead of the most recent action to proceed. This removes correlations in the observation sequence and smooths changes in the data distribution. Iterative update adjusts Q towards target values that are only periodically updated, further reducing correlations with the target ([Source](https://en.wikipedia.org/wiki/Q-learning#Deep_Q-learning)). More details are available in the original DQN [paper](https://deepmind.com/research/dqn/).
 
 
 ### Neural Network Model
