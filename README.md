@@ -59,5 +59,5 @@ You will also need to install the pre-built Unity environment, you will NOT need
 
 ### Instructions
 
-Follow the instructions in `Navigation.ipynb` (or `Navigation-cpu.ipynb` if youa are training this on the cpu) to get started with training your own agent!
+Follow the instructions in `Navigation.ipynb` (or `Navigation-cpu.ipynb` if you are training this on the cpu) to get started with training your own agent!
 
